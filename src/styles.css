@@ -4,7 +4,6 @@ body {
 
 section {
 	background: white;
-	border: solid black 1px;
 }
 
 .hero {
@@ -17,6 +16,9 @@ section {
 footer {
 	height: 500px;
 	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 80px;
 }
 
 nav {
@@ -96,6 +98,13 @@ p {
 	padding: 80px;
 }
 
+.sub-section-alt {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	padding: 80px;
+}
+
 h2 {
 	font-size: 50px;
 }
@@ -106,7 +115,63 @@ h2 {
 }
 
 .project-card {
-	width: 200px;
+	width: 300px;
 	height: 500px;
-	border: 1px solid black;
+	box-shadow: 5px 5px 20px rgb(197, 195, 195);
+	margin: 10px;
+}
+
+.project-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.subtext {
+	font-size: 15px;
+
+}
+
+.project-image {
+	margin-top: 25px;
+	width: 250px;
+}
+
+hr {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.project-link {
+	text-decoration: none;
+	color: #ef744b;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.hamburger {
+	display: none;
+	padding-top: 40px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+	.project-container {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.hamburger {
+		display: block;
+		border: 0;
+		background-color: transparent;
+		color: white;
+		font-size: 30px;
+	}
+
+	ul {
+		display: none;
+	}
 }

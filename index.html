@@ -9,6 +9,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/9bd64ab9ea.js" crossorigin="anonymous"></script>
 	<title>Portfolio</title>
 </head>
 
@@ -16,16 +17,17 @@
 	<section class="hero">
 		<nav>
 			<ul>
-				<li>About me</li>
-				<li>Projects</li>
-				<li>Contact</li>
+				<li><a href="#about-me">About me</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
+			<button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
 		</nav>
 		<div class="hero-area">
 			<div class="hero-text">
 				<h1>Eric Jiang</h1>
 				<p>Part II Software Engineering Student @ UoA</p>
-				<div class="button">About me</div>
+				<div class="button"><a href="#about-me">About me</a></div>
 			</div>
 			<div class="socials">
 				<div>
@@ -53,7 +55,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="sub-section">
+	<section class="sub-section" id="about-me">
 		<div class="information">
 			<h2>About Me</h2>
 			<p>Hello! My name is Eric Jiang and I am a Part II Software Engineering student at The University of
@@ -61,17 +63,43 @@
 			</p>
 		</div>
 		<div class="headshot-container">
-			<img class="headshot" src="src/images/pfp.png" alt="Eric's profile picture">
+			<img class="headshot" src="src/images/pfp.png" alt="Eric's profile picture" />
 		</div>
 	</section>
-	<section></section>
-	<h2>Projects</h2>
-	<div>
-		<div class="project-card"></div>
-		<div class="project-card"></div>
-		<div class="project-card"></div>
-	</div>
-	<footer></footer>
+	<section class="sub-section-alt" id="projects">
+		<h2>Projects</h2>
+		<div class="project-container">
+			<div class="project-card">
+				<img class="project-image" src="src/images/projectone.png" alt="Project one image" />
+				<h3>Quick, Draw!</h3>
+				<p class="subtext"> This is my project and
+					some text about it. I enjoyed making this project</p>
+				<hr>
+				<p class="subtext"> <a class="project-link" href="https://github.com/ejiang25/">View here</a></p>
+			</div>
+			<div class="project-card">
+				<img class="project-image" src="src/images/projectone.png" alt="Project one image" />
+				<h3>Quick, Draw!</h3>
+				<p class="subtext"> This is my project and
+					some text about it. I enjoyed making this project</p>
+				<hr>
+				<p class="subtext"> <a class="project-link" href="https://github.com/ejiang25/">View here</a></p>
+			</div>
+			<div class="project-card">
+				<img class="project-image" src="src/images/projectone.png" alt="Project one image" />
+				<h3>Quick, Draw!</h3>
+				<p class="subtext"> This is my project and
+					some text about it. I enjoyed making this project</p>
+				<hr>
+				<p class="subtext"> <a class="project-link" href="https://github.com/ejiang25/">View here</a></p>
+			</div>
+		</div>
+	</section>
+
+	<footer id="contact">
+		<h2>Contact me</h2>
+		<p>ejiang25@gmail.com</p>
+	</footer>
 
 	<script src="src/app.js"></script>
 </body>
