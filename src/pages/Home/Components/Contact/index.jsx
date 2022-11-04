@@ -10,11 +10,13 @@ const Contact = () => {
 					<div className="left"></div>
 					<div className="right">
 						<h2 className="contact-us headings">Contact Me</h2>
-						<input type="text" className="field" placeholder="Your Name" />
-						<input type="text" className="field" placeholder="Your Email" />
-						<input type="text" className="field" placeholder="Phone" />
-						<textarea placeholder="Message" className="field"></textarea>
-						<button className="btn">Send</button>
+						<form target="_blank" className="form" action="https://formsubmit.co/ejiang25@gmail.com" method="POST">
+							<input type="text" name="name" required className="field" placeholder="Your Name" />
+							<input type="email" name="email" required className="field" placeholder="Your Email" />
+							<input type="text" className="field" placeholder="Phone" />
+							<textarea placeholder="Message" className="field message-area"></textarea>
+							<button type="submit" className="btn">Send</button>
+						</form>
 					</div>
 				</div>
 			</div>
@@ -23,3 +25,5 @@ const Contact = () => {
 }
 
 export default Contact;
+
+// https://formsubmit.co/el/kepeho

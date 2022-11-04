@@ -132,6 +132,8 @@ h2 {
 .headshot-container {
   display: flex;
   align-items: center;
+  margin-top: 5px;
+  margin-bottom: 50px;
 }
 
 .project-card {
@@ -228,6 +230,10 @@ html {
 
 .information {
   width: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
 }
 
 .container {
@@ -269,6 +275,10 @@ html {
 }
 
 .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 25px 40px;
 }
 
@@ -310,7 +320,9 @@ html {
   padding: 0.5rem 1rem;
   font-size: 1.1rem;
   margin-bottom: 22px;
-  transition: .3s;
+  transition: .05s;
+  max-width: 805px;
+  max-height: 500px;
 }
 
 .field:hover {
@@ -350,4 +362,16 @@ textarea {
   .left {
     height: 200px;
   }
+}
+
+.message-area {
+  resize: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }

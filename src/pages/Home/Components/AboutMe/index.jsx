@@ -8,6 +8,9 @@ const AboutMe = () => {
 		<section class="sub-section" id="about-me">
 			<div class="information">
 				<h2>About Me</h2>
+				<div class="headshot-container">
+					<img class="headshot" src={headshot} alt="Eric's headshot" />
+				</div>
 				<p>Hello! My name is Eric Jiang and I am a Part II Software Engineering student at The University of
 					Auckland.
 				</p>
@@ -25,9 +28,7 @@ const AboutMe = () => {
 					decided to
 					pursue a career in software engineering to further this new-found passion.</p>
 			</div>
-			<div class="headshot-container">
-				<img class="headshot" src={headshot} alt="Eric's headshot" />
-			</div>
+
 		</section>
 	)
 }
