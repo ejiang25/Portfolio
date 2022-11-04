@@ -5,32 +5,32 @@ import projectOne from '../../../../resources/images/projectone.png';
 
 const Projects = () => {
 	return (
-		<section class="sub-section-alt" id="projects">
-			<h2>Projects</h2>
-			<div class="project-container">
-				<div class="project-card">
-					<img class="project-image" src={projectOne} alt="Project one" />
+		<section className="sub-section-alt" id="projects">
+			<h2 className="headings">Projects</h2>
+			<div className="project-container">
+				<div className="project-card">
+					<img className="project-image" src={projectOne} alt="Project one" />
 					<h3>Quick, Draw!</h3>
-					<p class="subtext"> This is my project and
+					<p className="subtext"> This is my project and
 						some text about it. I enjoyed making this project</p>
 					<hr />
-					<p class="subtext"> <a class="project-link" href="https://github.com/ejiang25/">View here</a></p>
+					<p className="subtext"> <a className="project-link" href="https://github.com/ejiang25/">View here</a></p>
 				</div>
-				<div class="project-card">
-					<img class="project-image" src={projectOne} alt="Project one " />
+				<div className="project-card">
+					<img className="project-image" src={projectOne} alt="Project one " />
 					<h3>Quick, Draw!</h3>
-					<p class="subtext"> This is my project and
+					<p className="subtext"> This is my project and
 						some text about it. I enjoyed making this project</p>
 					<hr />
-					<p class="subtext"> <a class="project-link" href="https://github.com/ejiang25/">View here</a></p>
+					<p className="subtext"> <a className="project-link" href="https://github.com/ejiang25/">View here</a></p>
 				</div>
-				<div class="project-card">
-					<img class="project-image" src={projectOne} alt="Project one " />
+				<div className="project-card">
+					<img className="project-image" src={projectOne} alt="Project one " />
 					<h3>Quick, Draw!</h3>
-					<p class="subtext"> This is my project and
+					<p className="subtext"> This is my project and
 						some text about it. I enjoyed making this project</p>
 					<hr />
-					<p class="subtext"> <a class="project-link" href="https://github.com/ejiang25/">View here</a></p>
+					<p className="subtext"> <a className="project-link" href="https://github.com/ejiang25/">View here</a></p>
 				</div>
 			</div>
 		</section>

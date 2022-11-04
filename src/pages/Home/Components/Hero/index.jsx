@@ -1,7 +1,12 @@
 import React from "react";
 import '../../../../index.css';
 
+
 const Hero = () => {
+	const navList = document.getElementById('nav-list')
+	function toggleButton() {
+		navList.classList.toggle('show')
+	}
 	return (
 		<section className="hero">
 			<nav>
@@ -10,7 +15,7 @@ const Hero = () => {
 					<li><a href="#projects">Projects</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
-				<button className="hamburger" id="hamburger"><i className="fas fa-bars"></i></button>
+				<button className="hamburger" onClick={() => toggleButton()}><i className="fas fa-bars"></i></button>
 			</nav>
 			<div className="hero-area">
 				<div className="hero-text">

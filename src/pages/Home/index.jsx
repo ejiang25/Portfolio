@@ -1,8 +1,10 @@
 import React from "react";
+import '../../index.css';
 import AboutMe from "./Components/AboutMe";
 import Contact from "./Components/Contact";
 import Hero from "./Components/Hero";
 import Projects from "./Components/Projects";
+
 
 
 const Home = () => {
