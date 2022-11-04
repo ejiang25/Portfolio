@@ -1,10 +1,11 @@
-const hamburgerButton = document.getElementById('hamburger')
-const navList = document.getElementById('nav-list')
+import Home from "./pages/Home";
 
-
-
-function toggleButton() {
-	navList.classList.toggle('show')
+const App = () => {
+  return (
+    <div>
+      <Home />
+    </div>
+  );
 }
 
-hamburgerButton.addEventListener('click', toggleButton)
+export default App;
