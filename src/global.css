@@ -1,0 +1,9 @@
+/* GLOBAL CSS */
+body {
+  font-family: 'McLaren', cursive;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}

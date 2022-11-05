@@ -1,6 +1,6 @@
 import React from "react";
-import '../../../../index.css';
 import headshot from '../../../../resources/images/pfp.png';
+import './aboutme.css';
 
 
 const AboutMe = () => {
