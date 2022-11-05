@@ -119,13 +119,13 @@ h1 {
 		align-self: flex-end;
 	}
 
-	ul {
-		display: none;
+	.navigation-menu {
 		background-color: #2b2c38;
 		margin: 0px;
+		display: none;
 	}
 
-	ul.show {
+	.navigation-menu.expanded {
 		display: block;
 	}
 

@@ -1,21 +1,23 @@
-import React from "react";
+import { useState } from "react";
 import './hero.css';
 
 
 const Hero = () => {
-	const navList = document.getElementById('nav-list')
-	function toggleButton() {
-		navList.classList.toggle('show')
-	}
+	const [isNavExpanded, setIsNavExpanded] = useState(false)
+
 	return (
 		<section className="hero">
 			<nav>
-				<ul id="nav-list">
+				<ul className={
+					isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
+				}>
 					<li><a href="#about-me">About me</a></li>
 					<li><a href="#projects">Projects</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
-				<button className="hamburger" onClick={() => toggleButton()}><i className="fas fa-bars"></i></button>
+				<button className="hamburger" onClick={() => {
+					setIsNavExpanded(!isNavExpanded);
+				}}><i className="fas fa-bars"></i></button>
 			</nav>
 			<div className="hero-area">
 				<div className="hero-text">
