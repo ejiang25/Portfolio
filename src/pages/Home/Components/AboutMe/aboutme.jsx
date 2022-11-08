@@ -16,8 +16,7 @@ const AboutMe = () => {
 				</p>
 				<br />
 				<p className="background-info">I've been passionate and curious about technology since a kid, always playing
-					around with computers and
-					always wanting
+					around with computers and wanting
 					to know how everything worked behind the scenes. After taking an introductory paper for
 					programming in my first
 					year of uni, I discovered a passion for software engineering. My interest

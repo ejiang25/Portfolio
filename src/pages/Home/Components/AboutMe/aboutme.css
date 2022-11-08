@@ -15,7 +15,7 @@ h2 {
 .sub-section {
 	display: flex;
 	justify-content: space-around;
-	padding: 80px;
+	padding: 30px;
 }
 
 .information {
@@ -47,8 +47,8 @@ h2 {
 .headshot-container {
 	display: flex;
 	align-items: center;
-	margin-top: 5px;
-	margin-bottom: 50px;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 .headshot {
