@@ -16,7 +16,7 @@ const Projects = () => {
 					<p className="subtext">Game that challenges players to draw a picture of an object or idea and then tries to guess what the drawing represents. Created with two others and used GitHub Flow. Made using JavaFX</p>
 					<div className="project-viewhere">
 						<hr />
-						<p className="subtext"> <a className="project-link" href="https://gitfront.io/r/ejiang25/iETAcLurLBQA/QuickDraw/">View here</a></p>
+						<a className="project-link" href="https://gitfront.io/r/ejiang25/iETAcLurLBQA/QuickDraw/">View here</a>
 					</div>
 				</div>
 				<div className="project-card">
@@ -29,7 +29,7 @@ const Projects = () => {
 					</p>
 					<div className="project-viewhere">
 						<hr />
-						<p className="subtext"> <a className="project-link" href="https://gitfront.io/r/ejiang25/YqMawB4ks7Kh/Blackjack/">View here</a></p>
+						<a className="project-link" href="https://gitfront.io/r/ejiang25/YqMawB4ks7Kh/Blackjack/">View here</a>
 					</div>
 				</div>
 				<div className="project-card">
@@ -41,7 +41,7 @@ const Projects = () => {
 						implement the logic. Made using Java</p>
 					<div className="project-viewhere">
 						<hr />
-						<p className="subtext"> <a className="project-link" href="https://gitfront.io/r/ejiang25/6SyeN69GERFX/Burgershop/">View here</a></p>
+						<a className="project-link" href="https://gitfront.io/r/ejiang25/6SyeN69GERFX/Burgershop/">View here</a>
 					</div>
 				</div>
 			</div>
