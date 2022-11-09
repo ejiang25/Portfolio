@@ -1,8 +1,8 @@
 .hero {
 	background-color: #1c1d25;
-	height: 100vh;
 	color: white;
 	font-size: 40px;
+	height: 100vh;
 }
 
 nav {
@@ -48,14 +48,14 @@ h1 {
 
 .hero-area {
 	display: flex;
-	height: 100%;
+	max-width: inherit;
 	justify-content: space-between;
 	align-items: center;
 }
 
 .hero-text {
 	margin-left: 80px;
-	margin-bottom: 200px;
+	margin-top: 100px;
 }
 
 .button {

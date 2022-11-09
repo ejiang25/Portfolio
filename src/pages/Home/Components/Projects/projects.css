@@ -23,6 +23,8 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	padding-top: 0px;
+	height: 100vh;
+	height: 100%;
 }
 
 .sub-section-alt {
