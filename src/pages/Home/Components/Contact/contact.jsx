@@ -11,6 +11,7 @@ const Contact = () => {
 					<div className="right">
 						<h2 className="headings">Contact Me</h2>
 						<form target="_blank" className="form" action="https://formsubmit.co/ejiang25@gmail.com" method="POST">
+							<input type="hidden" name="_next" value="https://ejiang25.github.io/Portfolio" />
 							<input type="text" name="name" required className="field" placeholder="Your Name" />
 							<input type="email" name="email" required className="field" placeholder="Your Email" />
 							<input type="text" className="field" placeholder="Phone" />
