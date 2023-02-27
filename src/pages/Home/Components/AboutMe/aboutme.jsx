@@ -11,7 +11,7 @@ const AboutMe = () => {
 				<div className="headshot-container">
 					<img className="headshot" src={headshot} alt="Eric's headshot" />
 				</div>
-				<p>Hello! My name is Eric Jiang and I am a Part II Software Engineering student at The University of
+				<p>Hello! My name is Eric Jiang and I am a Penultimate Software Engineering student at The University of
 					Auckland.
 				</p>
 				<br />
