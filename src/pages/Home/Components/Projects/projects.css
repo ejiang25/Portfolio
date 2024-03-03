@@ -70,7 +70,7 @@ p {
 
 .project-container {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	margin-top: 30px;
 }
 
