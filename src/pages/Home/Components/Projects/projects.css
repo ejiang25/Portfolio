@@ -85,9 +85,12 @@ p {
 	text-align: left;
 }
 
-#burgershop {
-	margin-top: 5px;
-	margin-bottom: -20px;
+
+#solemates{
+	margin-top: 68px;
+	width: 250px;
+	position: relative;
+	top: 50px;
 }
 
 #blackjack {
